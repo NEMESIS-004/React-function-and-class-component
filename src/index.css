@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(210, 231, 250);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.movie-card{
+  background-color: white;
+  display: flex;
+  margin: 50px auto;
+
+  height: 300px;
+  width: 70%;
+  border-radius: 5px;
+}
+.left img{
+  /* position: flex; */
+  /* flex-grow: 1; */
+  height: 260px;
+  padding: 10%;
+}
+.movie-plot{
+  height: 90px;
+}
+.right{
+  /* position: flex; */
+  padding: 10px 40px;
+  flex-grow: 1;
+  
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.star-count{
+  margin: auto;
+  position: relative;
+  
+}
+.star-count span{
+  
+  position: absolute;
+  
+}
+.fav-btn{
+  margin: 8px;
+  background-color: rgb(21, 228, 66);
+  color: white;
+  font-weight: 600;
+}
+.cart-btn{
+  
+  background-color: rgb(138, 21, 228);
+  color: white;
+  font-weight: 600;
+}
+.star-count img{
+  height: 25px;
+}
+.star-count span{
+  padding: 5px;
+  font-size: large  ;
+}
+.star-count .add-star{
+  height: 10px;
+}
+.star-count .remove-star{
+  height: 10px;
+}
+.remove-fav-btn{
+  margin: 8px;
+  background-color: rgb(45, 21, 228);
+  color: white;
+  font-weight: 600;
+}
+.remove-cart-btn{
+  
+  background-color: rgb(228, 21, 21);
+  color: white;
+  font-weight: 600;
+}
+
+
